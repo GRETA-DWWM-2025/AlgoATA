@@ -1,5 +1,10 @@
 # AlgoATA
+
 Construction d'algorithme pseudo code
+
+Problème: Ranger les entiers contenus dans un tableau dans l'ordre croissant.
+
+Construction d'algorithme
 
 
 Explication du code
@@ -52,3 +57,5 @@ Pourquoi n-2 ? Parce que le dernier élément sera déjà trié à la fin.
     T[indmin] ← x
 
 → On échange T[i] avec T[indmin] pour placer le plus petit au bon endroit.
+
+
