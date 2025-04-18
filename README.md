@@ -58,4 +58,4 @@ Pourquoi n-2 ? Parce que le dernier élément sera déjà trié à la fin.
 
 → On échange T[i] avec T[indmin] pour placer le plus petit au bon endroit.
 
-
+---------------------------------------------------
