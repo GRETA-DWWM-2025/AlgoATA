@@ -1,2 +1,2 @@
 # AlgoATA
-Construction d'algorythme pseudo code
+Construction d'algorithme
