@@ -1,0 +1,18 @@
+Entrée
+T : tableau [0, N entier];
+
+Var
+    tableauEnOrdre, min, indexOf;
+Debut
+    tantque tableau > 0 Faire
+        pour i tant que i < longueur de tableau i++ Faire
+            Si i = 0 alors
+                min := tableau[i]
+            Si i tableau[i] < min alors
+                min := tableau[i]
+                indexOf := i
+        Ajouter min au tableauEnOrdre
+        Suppression tableau[indexOf]
+        FinPour
+    FinTQ
+Fin
