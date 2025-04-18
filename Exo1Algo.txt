@@ -1,0 +1,18 @@
+PseudoCode Alexis
+----------------------------------------------------------
+Procédure Tri_Selection(T : tableau d'entiers, n : entier)
+Var
+    i, j, x, indmin : entier
+Début
+    Pour i de 0 à n - 2 faire
+        indmin ← i
+        Pour j de i + 1 à n - 1 faire
+            Si T[j] < T[indmin] alors
+                indmin ← j
+            FinSi
+        FinPour
+        x ← T[i]
+        T[i] ← T[indmin]
+        T[indmin] ← x
+    FinPour
+FinProcédure
